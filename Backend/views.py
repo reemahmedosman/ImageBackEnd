@@ -10,7 +10,7 @@ from django.http import HttpResponse
 from .csrf_ignore import CsrfExemptSessionAuthentication,BasicAuthentication
 import cv2,os,shutil
 import sys
-sys.path.insert(0, 'code/')
+sys.path.insert(0, 'Backend/code/')
 import processing
 
 def ReadText():
